@@ -1,0 +1,13 @@
+﻿@media screen, projection 
+{
+ div.imageflow {position:relative; width:100%; margin:-70px 0 0px 0; padding-bottom:0; overflow:hidden; text-align:left; visibility:hidden;}
+ div.imageflow img 
+  {
+  position:absolute; top:0px; border:none; visibility:hidden;
+  -ms-interpolation-mode:bicubic; /* Enables bicubic image resampling for the IE7 */
+ }
+ div.imageflow p {margin:0 auto; text-align:center;}
+ div.imageflow .navigation {z-index:10000;}
+ div.imageflow .slideshow  {position:absolute; z-index:10003; height:14px; width:14px; margin:20px 0 0 20px; cursor:pointer;}
+ div.imageflow .images {overflow:hidden; white-space:nowrap;}
+}

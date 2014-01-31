@@ -1,0 +1,88 @@
+#body {background-position:0 center; overflow:auto;}
+
+#logo {margin:4px 0 62px 2px; height:169px; width:346px; background-image:url("i/des/logo_index.png");}
+#logo>div {position:absolute; margin:128px 0 6px -8px; height:94px; width:360px; background-image:url("i/des/logotext_index.png");}
+
+#i_main
+{ 
+ position:fixed; min-height:800px; min-width:360px; padding:5px 8px;
+ background:url("i/des/d2.png") right bottom; 
+ color:#AFAB85; text-shadow:1px 1px 2px #11110F;
+ box-shadow:
+ inset rgba(0,0,0,0.6) 0px 210px 40px 0px,
+ inset rgba(0,0,0,0.1) 4px 4px 12px 2px,
+ inset rgba(0,0,0,0.2) -8px 8px 12px 2px;
+}
+
+#i_entgo .d3 {margin:12px 0 10px 0; width:210px;}
+#i_entgo .d3 span {font:bold 22px monospace;}
+#i_entgo .b2 {width:145px;} #i_entgo .b3 {width:85px;}
+
+#i_er input, #i_er select 
+{
+ margin-top:2px; height:22px; width:220px;
+ font:bold 16px monospace; font-style:italic; text-align:center;
+ background:transparent url("i/des/index_input_bg.png");
+ border:1px solid #726341; display:none;
+}
+
+div.i_p0, div.i_p1 {position:absolute; margin:1px 0 0 276px; font-size:30px; color:#CD7735;}
+div.i_p0 {color:#CD7735; opacity:0.8;} div.i_p1 {color:#6A8936;}
+
+#i_er input:focus {border:1px solid #5F732B; box-shadow: #809A3A 0px 0px 2px;}
+#i_er>div:nth-child(1) input {border-radius: 9px 9px 0 0;}
+#i_er>div select {width:230px; height:30px;}
+#i_er .labels {margin:14px 0; font-size:14px;}
+#i_er label.y {font-weight:bold;}
+#i_er .b2, #i_er .bdis {width:234px; font-weight:bold;}
+
+#i_erro 
+{
+ margin:12px 0 0 0; padding:8px 4px; width:218px;
+ font-size:13px; font-weight:bold; color:#FD8368; display:none;
+}
+
+#i_inf {width:320px; margin-top:12px;}
+#i_inf hr {width:220px; margin-bottom:8px;}
+
+#i_hands {margin-top:12px;}
+#i_hands hr {width:220px; margin-bottom:8px;}
+#i_hands div {height:32px; width:32px; background-image:url("i/des/hands.png"); display:inline-block;}
+#i_hands .vk {background-position:0 0;}
+#i_hands .vk:hover {background-position:0 -32px;}
+#i_hands .fb {background-position:-32px 0;}
+#i_hands .fb:hover {background-position:-32px -32px;}
+#i_hands .od {background-position:-64px 0;}
+#i_hands .od:hover {background-position:-64px -32px;}
+#i_hands .mm {background-position:-96px 0;}
+#i_hands .mm:hover {background-position:-96px -32px;}
+#i_hands .tw {background-position:-128px 0;}
+#i_hands .tw:hover {background-position:-128px -32px;}
+
+div.r380 {width:82%; margin:16px 0 16px 32px; text-align:left;}
+div.r380>div:nth-child(1) {background-image:url("i/des/r380/r3_a.png"),url("i/des/r380/r3_a.png"); background-position:0 0,right -46px; background-repeat:no-repeat;}
+div.r380>div:nth-child(1)>div {height:23px; margin:0 23px; background:url("i/des/r380/r3_a.png") 0 -23px repeat-x;}
+div.r380>div:nth-child(2) {background-image:url("i/des/r380/r3_l.png"),url("i/des/r380/r3_r.png"); background-position:0 0,right 0; background-repeat:repeat-y;}
+div.r380>div:nth-child(2)>div:nth-child(1) {margin:0 10px; padding:0 8px; color:#E1E0D6; background:url("i/des/r380/r3_c.png") repeat;}
+div.r380>div:nth-child(3) {background-image:url("i/des/r380/r3_a.png"),url("i/des/r380/r3_a.png"); background-position:left -69px,right -89px; background-repeat:no-repeat;}
+div.r380>div:nth-child(3)>div {height:10px; margin:0 10px; background:url("i/des/r380/r3_a.png") 0 -79px repeat-x;}
+
+#rttl {overflow:hidden; padding-left:4px; font:bold 22px monospace; color:#B3AA8C; text-transform:uppercase; text-shadow:1px 1px 2px #0A0A07;}
+#rttl hr {display:inline-block; width:100%; left:0px; margin:0 -100% 0 12px;}
+
+div.n_div {min-height:60px; margin-bottom:12px;}
+div.n_div .n_r {float:right; margin-top:4px;}
+div.n_div .n_ttl {font:bold 13px Verdana; color:#F4DE5E;}
+div.n_div span {font-size:11px; color:#C1C0B5;}
+div.n_div .n_cont {margin:2px 0 4px 0; padding:2px 2px 0px 0px;}
+
+#spisok {margin:-4px 0 12px -4px;}
+#spisok a, #spisok b  {margin:0 4px; padding:0 4px;}
+
+#forums {margin-bottom:5px;}
+#forums div {overflow:hidden; white-space:nowrap; display:inline-block;}
+
+#forums div:nth-child(1) {width:200px;}
+#forums div:nth-child(2) {width:80px; margin-left:8px;}
+#forums div:nth-child(3) {width:100px; margin-left:8px; font-size:12px; font-style:italic;}
+#forums div:nth-child(4) {width:40px; margin-left:8px; font-size:12px; color:#ABA89A;}
